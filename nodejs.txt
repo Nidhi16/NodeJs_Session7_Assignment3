@@ -1,0 +1,11 @@
+Why to use node js instead of other server side language?
+
+1. Node.js is essentially a command-line tool which lets one run JavaScript programs and is used to run a web server. Node.js uses the V8 JavaScript engine to run the code which makes the code execution very fast.
+
+2. Node.js is very good when it comes to doing several things at the same time. The event-driven system of node.js is fast even when handling lots of requests at once, compared to traditional multi-threaded JAVA or similar langugages/frameworks.
+3. Node.js provides a nonblocking I/O API that optimizes an application's throughput and scalability. Node.js uses event loop, instead of processes or threads. Callbacks defined by the developers enter and exit in-between the event loop, using the CPU cycles only when necessary, instead of using whole threads.
+4. Since Node.js uses JavaScript at the backend, this allows us to use the same language both sides as well as share code between frontend and backend (e.g. for form validation, or to render views at either end. e.g. mustache.js).
+5. Node.js offers a great package manager, npm, and the amount of available open-source tools in npm's registry is huge and growing.
+6. Node.js is ready for enterprise deployment. There are many well-known companies who use node.js in their production environment (including PayPal, LinkedIn, Netflix etc.).
+
+
